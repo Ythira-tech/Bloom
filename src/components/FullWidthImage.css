@@ -1,0 +1,25 @@
+.fullwidth-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 400px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+.fullwidth-image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.fullwidth-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 400px;
+}
+

@@ -1,0 +1,71 @@
+.questions-section {
+  background-color: #f7fdf9;
+  padding: 60px 20px;
+  margin-top: 100px;
+}
+.questions-fade-wrapper {
+  position: relative;
+}
+.fade-overlay.top-fade {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 110px;
+  background: linear-gradient(to bottom, skyblue 0%, rgba(241, 241, 241, 0) 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.section-heading {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Optional: soften the accordion appearance */
+.accordion-button {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  background-color: #f1f1f1;
+  color: #444;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e6f4ea;
+  color: #222;
+}
+
+.accordion-body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  background-color: #f1f1f1;
+  color: #555;
+}
+
+.faq-section {
+  background-color: white; /* Soft light blue */
+  padding: 60px 20px;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.faq-image img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+.faq-questions {
+  flex: 1;
+  min-width: 300px;
+}
+

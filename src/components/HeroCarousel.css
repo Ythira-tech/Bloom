@@ -1,0 +1,17 @@
+.carousel-item img {
+  height: 450px; /* or 350px or 300px depending on what you prefer */
+  object-fit: cover;
+  background-color: gray;
+
+}
+.carousel-item h3 {
+color: black ;
+  font-size: 36px;
+  font-weight: bold;
+  
+}
+.carousel-item p {
+  color: black;
+  font-size: 22px;
+  margin-top: 10px;
+}

@@ -1,0 +1,52 @@
+.calming-section {
+  padding: 4rem 2rem;
+  background: #e0f7fa; /* light sky blue */
+  font-family: 'Quicksand', sans-serif;
+}
+
+.calming-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.calming-image img {
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.calming-text {
+  max-width: 500px;
+  color: #2e3d49;
+}
+
+.calming-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00796b;
+}
+
+.calming-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.calm-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calm-button:hover {
+  background-color: #004d40;
+}
